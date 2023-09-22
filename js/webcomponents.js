@@ -28,7 +28,7 @@ class MyNav extends HTMLElement {
 }
 class MyFooter extends HTMLElement {
   connectedCallback() {
-      this.innerHTML = `
+    this.innerHTML = `
       <div class="container">
           <footer class="py-3 mt-4 mb-2">
               <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1 footerLogo">
@@ -66,27 +66,27 @@ class MyCarousel extends HTMLElement {
   </a>
 </div>
 `;
-}
+  }
 }
 
 // C'est cette ligne qui fait la magie. Elle indique au navigateur comment utiliser <my-nav> comme un élément réel.
-customElements.define('my-nav', MyNav);
-customElements.define('my-carousel', MyCarousel);
-customElements.define('my-footer', MyFooter);
+customElements.define("my-nav", MyNav);
+customElements.define("my-carousel", MyCarousel);
+customElements.define("my-footer", MyFooter);
 
-
-  const btn = document.getElementById("backToTop");
-
-  window.onscroll = function() { scrollFunction() };
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
+// Scroll to top
+const btn = document.getElementById("backToTop");
+window.onscroll = function () {
+  scrollFunction();
+};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
   }
+}
 
-  btn.onclick = function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+btn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
