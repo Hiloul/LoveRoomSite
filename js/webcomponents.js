@@ -32,7 +32,7 @@ class MyFooter extends HTMLElement {
       <div class="container">
           <footer class="py-3 mt-4 mb-2">
               <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1 footerLogo">
-                  <img src="/static/assets/picto_rose.png" alt="logo chatbot footer" width="30" height="24" class="rounded">
+                  <img src="../assets/logotest.png" alt="logo footer" width="30" height="24" class="rounded">
               </a>
               <span class="mb-3 mb-md-0">©2023 LoveRoom13 - Tous droits réservés.</span>               
               
@@ -47,13 +47,13 @@ class MyCarousel extends HTMLElement {
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../assets/Chatbot.png" alt="First slide">
+      <img class="d-block w-100" src="../assets/logotest.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/SoMe.png" alt="Second slide">
+      <img class="d-block w-100" src="../assets/logotest.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/Motus.png" alt="Third slide">
+      <img class="d-block w-100" src="../assets/logotest.png" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -73,3 +73,20 @@ class MyCarousel extends HTMLElement {
 customElements.define('my-nav', MyNav);
 customElements.define('my-carousel', MyCarousel);
 customElements.define('my-footer', MyFooter);
+
+
+  const btn = document.getElementById("backToTop");
+
+  window.onscroll = function() { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+
+  btn.onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
