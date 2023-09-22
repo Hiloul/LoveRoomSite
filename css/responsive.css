@@ -68,3 +68,35 @@ p span {
     padding: 10px;
   }
 }
+
+
+/* Résponsive Tableau */
+
+
+/* Ajout des styles existants ici */
+
+/* Styles pour les tablettes et dispositifs de taille inférieure */
+@media (max-width: 768px) {
+    .pricing-table {
+        width: 95%;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+/* Styles pour les mobiles */
+@media (max-width: 480px) {
+    .pricing-table {
+        width: 100%;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        padding: 8px;
+        font-size: 0.8em;
+    }
+}
