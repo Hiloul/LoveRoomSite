@@ -35,10 +35,7 @@ class MyFooter extends HTMLElement {
                   <img src="/static/assets/picto_rose.png" alt="logo chatbot footer" width="30" height="24" class="rounded">
               </a>
               <span class="mb-3 mb-md-0">©2023 LoveRoom13 - Tous droits réservés.</span>               
-              <ul class="mb-3 mb-md-0">
-                  <li><a class=" href="#"><i class="fa-brands fa-snapchat"></i></a></li>
-                  <li><a class=" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-              </ul>
+              
           </footer>
       </div>
       `;
