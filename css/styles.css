@@ -1,10 +1,24 @@
+@font-face {
+  font-family: 'Filxgirl';
+  src: url('/css/font/fiolex_girls/Filxgirl.TTF') format('truetype');
+  /* Ajouter si besoin */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Filxgirl', sans-serif;
+}
+
+
+
 /* Reset de certaines propriétés pour une meilleure cohérence cross-browser */
 body,
 h1,
 p {
   margin: 0;
   padding: 0;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
   line-height: 1.6;
 }
 
@@ -139,7 +153,7 @@ img {
 
 .navbar-brand {
   color: #fef6e4;
-  font-family: 'Georgia', serif;
+  /* font-family: 'Georgia', serif; */
   font-weight: bold;
   font-size: 1.5em;
   margin-right: 30px; /* espace entre le logo et les liens de navigation */
