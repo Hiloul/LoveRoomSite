@@ -1,24 +1,18 @@
 @font-face {
-  font-family: 'Filxgirl';
-  src: url('/css/font/fiolex_girls/Filxgirl.TTF') format('truetype');
+  font-family: "Filxgirl";
+  src: url("/css/font/fiolex_girls/Filxgirl.TTF") format("truetype");
   /* Ajouter si besoin */
   font-weight: normal;
   font-style: normal;
 }
 
-* {
-  font-family: 'Filxgirl', sans-serif;
-}
-
-
-
 /* Reset de certaines propriétés pour une meilleure cohérence cross-browser */
+*{user-select: none;}
 body,
 h1,
 p {
   margin: 0;
   padding: 0;
-  /* font-family: "Georgia", serif; */
   line-height: 1.6;
 }
 
@@ -29,10 +23,14 @@ body {
   font-size: 16px;
   padding: 40px;
 }
+h2 {
+  font-family: "Filxgirl", sans-serif;
+}
 
 /* Style du titre */
 h1 {
-  font-size: 2.5em;
+  font-family: "Filxgirl", sans-serif;
+  font-size: 3.5em;
   text-align: center;
   margin-bottom: 20px;
   color: #b04a5a;
@@ -55,8 +53,11 @@ p:hover {
 
 /* Style des mots clés pour mettre en avant */
 p span {
+  font-family: "Filxgirl", sans-serif;
   color: #b04a5a;
   font-weight: bold;
+  font-size: xx-large;
+  margin-left: 5px;
 }
 
 /* Style du tableau des prix */
@@ -152,10 +153,10 @@ img {
 }
 
 .navbar-brand {
+  font-family: "Filxgirl", sans-serif;
   color: #fef6e4;
-  /* font-family: 'Georgia', serif; */
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-right: 30px; /* espace entre le logo et les liens de navigation */
 }
 
@@ -174,10 +175,7 @@ img {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  color: #fde0d2;
+  color: #3d3a37;
 }
 
-
-
 /* carousel */
-
