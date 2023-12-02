@@ -183,3 +183,13 @@ img {
 }
 
 /* carousel */
+
+.contact{
+  margin-top: 20px;
+}
+.contact li{
+  list-style-type: none;
+  text-align: center;
+  padding: 2px;
+
+}
