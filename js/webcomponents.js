@@ -3,7 +3,7 @@ class MyNav extends HTMLElement {
     this.innerHTML = `
       <header>
       <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="./assets/heartkey.png" alt="LoveRoom13 Logo" width="30" height="30">
         LoveRoom13
       </a>
