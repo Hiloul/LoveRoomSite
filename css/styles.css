@@ -188,8 +188,13 @@ img {
   margin-top: 20px;
 }
 .contact li{
+  cursor: pointer;
   list-style-type: none;
   text-align: center;
   padding: 2px;
 
+}
+
+.contact i {
+  margin-left: 5px;
 }
