@@ -208,3 +208,11 @@ img {
   display: inline-block;
   opacity: 1;
 }
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #8a3846;
+}
+
