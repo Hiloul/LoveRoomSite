@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Filxgirl";
-  src: url("/css/font/fiolex_girls/Filxgirl.TTF") format("truetype");
+  src: url("./font/fiolex_girls/Filxgirl.TTF") format("truetype");
   /* Ajouter si besoin */
   font-weight: normal;
   font-style: normal;
