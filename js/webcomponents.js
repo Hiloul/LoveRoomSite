@@ -4,7 +4,7 @@ class MyNav extends HTMLElement {
       <header>
       <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
-        <img src="../assets/heartkey.png" alt="LoveRoom13 Logo" width="30" height="30">
+        <img src="./assets/heartkey.png" alt="LoveRoom13 Logo" width="30" height="30">
         LoveRoom13
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
