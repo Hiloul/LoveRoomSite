@@ -187,15 +187,24 @@ img {
 .contact{
   margin-top: 20px;
 }
-.contact li{
-  cursor: pointer;
-  list-style-type: none;
-  text-align: center;
-  padding: 2px;
-
-}
 
 .contact i {
   margin-left: 5px;
 }
 
+.contact li {
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.contact li span {
+  display: none;
+}
+
+.contact li:hover span {
+  display: inline-block;
+  opacity: 1;
+}
