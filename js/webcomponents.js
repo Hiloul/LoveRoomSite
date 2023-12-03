@@ -32,7 +32,7 @@ class MyFooter extends HTMLElement {
       <div class="container">
           <footer class="py-3 mt-4 mb-2">
               <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1 footerLogo">
-                  <img src="../assets/heartkey.png" alt="logo footer" width="30" height="24" class="rounded">
+                  <img src="./assets/heartkey.png" alt="logo footer" width="30" height="24" class="rounded">
               </a>
               <span class="mb-3 mb-md-0">©2023 LoveRoom13 - Tous droits réservés.</span>               
               
